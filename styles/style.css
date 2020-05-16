@@ -1,5 +1,6 @@
 body {
   padding: 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -35,4 +36,30 @@ body button {
 #game-board {
     float: left;
     padding: 20px 0px;
+    left:50%;
+    position: fixed;
+    width: 40%;
+
+}
+.road{
+  background-image: url("../images/road.png");
+  background-repeat: repeat-y;
+  height: 100%;
+  width: 600px;
+  background-size: cover;
+}
+
+.car{
+  position: fixed;
+  top: 88.5%;
+  width: 5%;
+}
+
+.obstacle{
+  height: 40px;
+  background-color: brown;
+  /* width: 180px; */
+  position: absolute;
+  left:0;
+  top:-100px;
 }
